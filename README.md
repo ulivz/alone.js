@@ -29,7 +29,7 @@
 		name: 'Chen Haoli',
 		words: 'Hello World!'
     }
-
+	exports.year = '1994'
 	module.exports = {
 		add: add,
 		metadata: metadata
@@ -50,6 +50,7 @@
 	
 	console.log(add(1))   // 2
 	console.log(data.name + ' says ' + data.word)   // toxichl says Hello World!
+	console.log(year)   // 1994
 })()
 ```
 
