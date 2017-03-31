@@ -27,7 +27,7 @@
 	}
 	var metadata = {
 		name: 'Chen Haoli',
-    	words: 'Hello World!'
+		words: 'Hello World!'
     }
 
 	module.exports = {
