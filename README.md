@@ -13,7 +13,7 @@ A tiny browser-side `CommonJS` module loader.
 import `alone.js` in `<body>` of your page :
 
 ```html
-<script src="https://unpkg.com/alone.js@1.0.1/dist/alone.js"></script>
+<script src="https://unpkg.com/alone.js@1.0.1/dist/alone.min.js"></script>
 ```
 
 Create two new files `add.js`,` index.js`, import in the page:
