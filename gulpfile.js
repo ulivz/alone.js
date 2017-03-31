@@ -5,10 +5,10 @@ const del = require('del')
 
 gulp.task('pack', ["clean"], function () {
 	return gulp.src('./src/alone.js')
-		.pipe(gulp.dest('./dist'))    //输出all.js到文件夹
-		.pipe(rename({ suffix: '.min' }))   //rename压缩后的文件名
-		.pipe(uglify())    //压缩
-		.pipe(gulp.dest('./dist'));  //输出
+		.pipe(gulp.dest('./dist'))
+		.pipe(rename({ suffix: '.min' }))
+		.pipe(uglify())
+		.pipe(gulp.dest('./dist'));
 });
 
 gulp.task('clean', function () {
@@ -16,8 +16,8 @@ gulp.task('clean', function () {
 });
 
 gulp.task('run', function () {
-	var watcher = gulp.watch('src/*.js', ['clean','pack']);
-	watcher.on('change', function(event) {
+	var watcher = gulp.watch('./src/alone.js', ['clean', 'pack']);
+	watcher.on('change', function (event) {
 		console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
 	});
 })
