@@ -1,8 +1,12 @@
 # alone.js
 
-A tiny browser-side `CommonJS` loader
+A tiny browser-side `CommonJS` loader.
 
-中文README请移步：[README_zh](README_zh.md)
+---
+
+中文`README`请移步：[README_zh](README_zh.md)
+
+---
 
 ## Quick Start
 
