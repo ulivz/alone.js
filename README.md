@@ -34,7 +34,7 @@ Content of `test.js`：
 		return ++count;
 	}
 	var metadata = {
-		name: 'Chen Haoli',
+		name: 'toxichl',
 		words: 'Hello World!'
     }
 	exports.year = '1994'
