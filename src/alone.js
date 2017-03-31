@@ -18,14 +18,14 @@
 
 	Object.defineProperty(root.module, 'exports', {
 
-		set: function (_) {
+		set: function (_mol) {
 
-			if (typeof _ !== 'object') {
+			if (typeof _mol !== 'object') {
 				throw new Error('[Unexpected Export] Only accept a object in module.exports')
 
 			} else {
-				for (var key in _) {
-					root.module[key] = _[key]
+				for (var key in _mol) {
+					root.module[key] = _mol[key]
 				}
 			}
 		}
