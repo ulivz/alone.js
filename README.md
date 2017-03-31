@@ -7,7 +7,7 @@
 在你的页面中 body 中引入：
 
 ```html
-<script src="https://unpkg.com/alone.js@1.0.0/dist/alone.js"></script>
+<script src="https://unpkg.com/alone.js@1.0.1/dist/alone.js"></script>
 ```
 
 新建两个文件 `add.js`、`index.js`, 在页面中引入：
@@ -43,14 +43,14 @@
 `index.js`的内容：
 
 ```js
-	;(function () {
-		
-		var add = require('add')
-		var data = require('metadata')
-		
-		console.log(add(1))   // 2
-		console.log(data.name + ' says ' + data.word)   // toxichl says Hello World!
-	})()
+;(function () {
+	
+	var add = require('add')
+	var data = require('metadata')
+	
+	console.log(add(1))   // 2
+	console.log(data.name + ' says ' + data.word)   // toxichl says Hello World!
+})()
 ```
 
 是不是写法和 `node.js` 的 `CommonJS` 写法很像？
