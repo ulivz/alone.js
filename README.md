@@ -61,6 +61,6 @@ Does the above wording be similar to the `CommonJS` wording of `node.js`?
 
 ## Statement
 
-This is just a toy, do not use for the production environment.
+This is just a toy, do not use it for the production environment.
 
 
