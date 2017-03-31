@@ -6,7 +6,7 @@
 		typeof global === 'object') {
 		return factory('node');
 
-		// Browser Environment
+	// Browser Environment
 	} else if (typeof window !== 'undefined') {
 		return factory(window);
 	}
