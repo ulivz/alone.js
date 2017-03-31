@@ -1,0 +1,27 @@
+{
+  "name": "alone.js",
+  "version": "1.0.0",
+  "description": "A minimalist of the CommonJS module loader running on the browser",
+  "main": "alone.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toxichl/alone.js.git"
+  },
+  "keywords": [
+    "commonjs",
+    "module",
+    "browser"
+  ],
+  "author": "toxichl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toxichl/alone.js/issues"
+  },
+  "homepage": "https://github.com/toxichl/alone.js#readme"
+}
