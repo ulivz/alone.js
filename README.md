@@ -2,6 +2,8 @@
 
 A tiny browser-side `CommonJS` loader
 
+中文README请移步：[README_zh](README_zh.md)
+
 ## Quick Start
 
 import `alone.js` in `<body>` of your page :
