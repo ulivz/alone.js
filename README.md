@@ -1,6 +1,6 @@
 # alone.js
 
-一个极简的运行在浏览器上的 CommonJS 模块加载器
+一个极简的运行在浏览器上的 `CommonJS` 模块加载器
 
 ## Quick Start
 
@@ -52,5 +52,9 @@
 		console.log(data.name + ' says ' + data.word)   // toxichl says Hello World!
 	})()
 ```
+
+是不是写法和 `node.js` 的 `CommonJS` 很像？
+
+
 
 
