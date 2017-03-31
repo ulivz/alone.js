@@ -1,7 +1,22 @@
-var gulp = require('gulp');
+const gulp = require('gulp')
+const uglify = require('gulp-uglify')
+const rename = require('gulp-rename')
+const del = require('del')
 
-gulp.task('minify', function() {
-	gulp.src('src/alone.js') // 匹配 'client/js/somedir/somefile.js' 并且将 `base` 解析为 `client/js/`
-		.pipe(minify())
-		.pipe(gulp.dest('build'));  // 写入 'build/somedir/somefile.js'
+gulp.task('pack', ["clean"], function () {
+	return gulp.src('./src/alone.js')
+		.pipe(gulp.dest('./dist'))    //输出all.js到文件夹
+		.pipe(rename({ suffix: '.min' }))   //rename压缩后的文件名
+		.pipe(uglify())    //压缩
+		.pipe(gulp.dest('./dist'));  //输出
+});
+
+gulp.task('clean', function () {
+	return del(['dist/*'])
+});
+
+var watcher = gulp.watch('src/*.js', ['clean','pack']);
+
+watcher.on('change', function(event) {
+	console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
 });

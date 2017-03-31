@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/toxichl/alone.js/issues"
   },
-  "homepage": "https://github.com/toxichl/alone.js#readme"
+  "homepage": "https://github.com/toxichl/alone.js#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2"
+  }
 }
