@@ -1,7 +1,7 @@
 {
   "name": "alone.js",
   "version": "1.0.1",
-  "description": "A minimalist of the CommonJS module loader running on the browser",
+  "description": "A tiny browser-side commonjs loader",
   "main": "alone.js",
   "directories": {
     "test": "test"

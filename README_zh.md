@@ -1,23 +1,25 @@
 # alone.js
 
-A tiny browser-side `CommonJS` loader
+A tiny browser-side commonjs loader
+
+一个极简的运行在浏览器上的 `CommonJS` 模块加载器
 
 ## Quick Start
 
-import `alone.js` in `<body>` of your page :
+在你的页面中 body 中引入：
 
 ```html
 <script src="https://unpkg.com/alone.js@1.0.1/dist/alone.js"></script>
 ```
 
-Create two new files `add.js`,` index.js`, import in the page:
+新建两个文件 `add.js`、`index.js`, 在页面中引入：
 
 ```html
 <script src="add.js"></script>
 <script src="index.js"></script>
 ```
 
-Content of `test.js`：
+ `test.js`的内容：
 
 ```js
 ;(function () {
@@ -40,7 +42,7 @@ Content of `test.js`：
 )()
 ```
 
-Content of `index.js`：
+`index.js`的内容：
 
 ```js
 ;(function () {
@@ -54,11 +56,11 @@ Content of `index.js`：
 })()
 ```
 
-Does the above wording be similar to the `CommonJS` wording of `node.js`?
+是不是写法和 `node.js` 的 `CommonJS` 写法很像？
 
 
-## Statement
+## 声明
 
-This is just a toy, do not use for the production environment.
+这只是一个玩具，请勿用于生产环境
 
 
