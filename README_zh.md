@@ -1,5 +1,10 @@
 # alone.js
 
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
+[![Travis](https://img.shields.io/badge/download-%3C1kb-red.svg)]()
+[![apm](https://img.shields.io/apm/l/vim-mode.svg)]()
+[![apm](https://img.shields.io/github/stars/toxichl/alone.js.svg?style=social&label=Star)]()
+
 一个极简的运行在浏览器上的 `CommonJS` 模块加载器
 
 ## Quick Start
