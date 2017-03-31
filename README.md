@@ -1,5 +1,9 @@
 # alone.js
 
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
+[![Travis](https://img.shields.io/badge/download-%3C1kb-red.svg)]()
+
+
 A tiny browser-side `CommonJS` module loader (`~539bytes`).
 
 > 中文`README`请移步：[README_zh](README_zh.md)
