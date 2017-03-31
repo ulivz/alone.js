@@ -1,6 +1,6 @@
 # alone.js
 
-A tiny browser-side `CommonJS` module loader.
+A tiny browser-side `CommonJS` module loader (`~539bytes`).
 
 
 
