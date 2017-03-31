@@ -1,9 +1,11 @@
 ;(function (root, factory) {
+
 	// Node Environment
 	if (typeof exports === 'object' &&
 		typeof require === 'function' &&
 		typeof global === 'object') {
 		return factory('node');
+
 		// Browser Environment
 	} else if (typeof window !== 'undefined') {
 		return factory(window);
@@ -11,6 +13,7 @@
 })(this, function (root) {
 
 	if (!root) return;
+
 	// Store
 	root.module = {}
 
