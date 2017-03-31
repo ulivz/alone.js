@@ -15,8 +15,10 @@ gulp.task('clean', function () {
 	return del(['dist/*'])
 });
 
-var watcher = gulp.watch('src/*.js', ['clean','pack']);
+gulp.task('run', function () {
+	var watcher = gulp.watch('src/*.js', ['clean','pack']);
+	watcher.on('change', function(event) {
+		console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+	});
+})
 
-watcher.on('change', function(event) {
-	console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
-});
