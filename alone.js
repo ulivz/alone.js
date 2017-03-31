@@ -3,14 +3,16 @@
 		typeof exports === 'object' &&
 		typeof require === 'function' &&
 		typeof global === 'object') {
-		return factory();
+		return factory('node');
 		// Browser
 	} else if (typeof window !== 'undefined') {
 		return factory(window);
 	}
 })(this, function (root) {
 
-	if (!root) return;
+	if (!root) {
+		throw new Error('[Error] The node.js environment does not need to use this plugin')
+	}
 
 	root.module = new Object()
 
