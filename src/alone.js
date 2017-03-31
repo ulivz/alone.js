@@ -19,6 +19,9 @@
 
 	Object.defineProperty(root.module, 'exports', {
 
+		get: function () {
+			return {}
+		},
 		set: function (_mol) {
 
 			if (typeof _mol !== 'object') {

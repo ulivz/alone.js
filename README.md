@@ -53,7 +53,10 @@
 	})()
 ```
 
-是不是写法和 `node.js` 的 `CommonJS` 很像？
+是不是写法和 `node.js` 的 `CommonJS` 写法很像？
+
+
+## Quick Start
 
 
 
