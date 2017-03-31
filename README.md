@@ -22,11 +22,11 @@
 ```js
 ;(function () {
 
-	function add(count) {
+    function add(count) {
 		return ++count;
 	}
 	var metadata = {
-    	name: 'Chen Haoli',
+		name: 'Chen Haoli',
     	words: 'Hello World!'
     }
 
@@ -48,7 +48,7 @@
 		var add = require('add')
 		var data = require('metadata')
 		
-		console.log(add(1))   // 1
+		console.log(add(1))   // 2
 		console.log(data.name + ' says ' + data.word)   // toxichl says Hello World!
 	})()
 ```
