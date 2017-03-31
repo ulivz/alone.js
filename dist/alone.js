@@ -1,4 +1,4 @@
-(function (root, factory) {
+;(function (root, factory) {
 	// Node Environment
 	if (typeof exports === 'object' &&
 		typeof require === 'function' &&
