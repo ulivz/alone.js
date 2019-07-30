@@ -3,7 +3,7 @@
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)]()
 [![Travis](https://img.shields.io/badge/download-%3C1kb-red.svg)]()
 [![apm](https://img.shields.io/apm/l/vim-mode.svg)]()
-[![apm](https://img.shields.io/github/stars/toxichl/alone.js.svg?style=social&label=Star)]()
+[![apm](https://img.shields.io/github/stars/toxichl/alone.js.svg?style=social&label=Star)]() [![Greenkeeper badge](https://badges.greenkeeper.io/ulivz/alone.js.svg)](https://greenkeeper.io/)
 
 
 A tiny browser-side `CommonJS` module loader (`~539bytes`).
