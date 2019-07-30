@@ -25,10 +25,10 @@
   },
   "homepage": "https://github.com/toxichl/alone.js#readme",
   "devDependencies": {
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.1.2"
+    "gulp-uglify": "^3.0.2"
   }
 }
